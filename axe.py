@@ -68,7 +68,7 @@ rich_gelap=random.choice([J3,K3,H3,O3,N3,U3,B3,M3])
 USN = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 32.0.0.14.97 (iPhone10,6; iOS 11_1_1; ru_UA; ru-UA; scale=3.00; gamut=wide; 1125x2436)"
 
 internal,external,success,checkpoint,loop,following,ingredient=[],[],[],[],0,[],[]
-aorex, gyrex, method, fla, prox, menudump = {}, {}, [], [], [], []
+method, fla, prox, menudump = [], [], [], []
 s = requests.Session()
 ua_random = []
 ingredient.append("into")
