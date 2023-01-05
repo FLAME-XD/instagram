@@ -1,13 +1,9 @@
 [![LINE-Creators-Stickers-Piggy-Mengmeng2-Example-with-GIF-Animation.gif](https://i.postimg.cc/gcwTpNZV/LINE-Creators-Stickers-Piggy-Mengmeng2-Example-with-GIF-Animation.gif)](https://postimg.cc/V58RB94v) 
 
-# Install
-Terlebih dahulu kamu download Termux di PlayStore atau https://f-droid.org/en/packages/com.termux/ Jika sudah kamu buka Termux nya lalu ketik perintah ini
-
     $ git clone https://github.com/FLAME-XD/instagram
     $ cd $HOME/instagram
     $ git pull
     $ python axe.py
-
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
