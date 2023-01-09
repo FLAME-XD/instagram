@@ -737,7 +737,7 @@ class instagram:
 	def api(self,user,pas):
 		global loop,success,checkpoint
 		ses = requests.Session()
-		ua = self.ua_ig()
+		ua = ua_ku()
 		sys.stdout.write(f'\r {H}lupine {P}{loop}/{len(internal)}{P} live:-{H}{len(success)} {P}checkpoint:-{K}{len(checkpoint)} {P}');sys.stdout.flush()
 		try:
 			for pw in pas:
@@ -822,7 +822,7 @@ class instagram:
 	def force(self,user,pas):
 		global loop,success,checkpoint
 		ses = requests.Session()
-		ua = self.ua_ig()
+		ua = ua_ku()
 		sys.stdout.write(f'\r {H}lupine {P}{loop}/{len(internal)}{P} live:-{H}{len(success)} {P}checkpoint:-{K}{len(checkpoint)} {P}');sys.stdout.flush()
 		try:
 			for pw in pas:
